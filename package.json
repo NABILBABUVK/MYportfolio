@@ -1,15 +1,13 @@
 {
-  "homepage": ".",
+  "homepage": "https://NABILBABUVK.github.io/MYportfolio",
   "name": "portfolio-muu",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
-    "i": "^0.3.7",
-    "npm": "^10.9.0",
-    "react": "^18.3.1",
+    "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
@@ -18,12 +16,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "dev": "react-scripts start",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,15 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "Project Video : https://www.youtube.com/watch?v=6SCYzHkve9E&ab_channel=GorkCoder",
-  "main": "index.js",
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "gh-pages": "^6.2.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
